@@ -9,11 +9,10 @@ gerarTabuada = () => {
     // Sempre lembrar do value para pegar o valor do input!
     
     for (let index = 0; index < numero.value; index++) {
-        // Usar a interpolação
+        // Usan interpolação
         tabuada += `${numero.value} X ${index} = ${numero.value * index} <br>`;
 
-        // Usar concatenação
-        
+        // Usan concatenação
         // tabuada += numero.value + " X " + index + " = " + (numero.value * index) + "<br>"
     }
 
