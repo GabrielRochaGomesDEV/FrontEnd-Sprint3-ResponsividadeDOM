@@ -10,7 +10,7 @@ uma informação “Bom dia”.
 prompt) e em seguida apresente uma mensagem no navegador informando qual é o maior
 número dentre os números informados.
 
-![Untitled](img/Untitled.png)
+![Untitled](img.png)
 
 3 - Faça um programa JavaScript em que o usuário informará sua altura e peso e o programa
 calculará o seu IMC. As entradas e saídas deverão ser realizadas por um arquivo HTML:
