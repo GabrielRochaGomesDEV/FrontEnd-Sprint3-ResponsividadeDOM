@@ -1,0 +1,79 @@
+/* Estilo geral para os cards */
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(237 194 25);
+}
+
+#cards {
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: flex;
+    margin: auto;
+    justify-content: space-between;
+
+    
+}
+
+.card {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    margin-top: 20px;
+    width: 300px; /* Reduzi o tamanho do card */
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card p {
+    width: 60px;
+    text-align: center;
+}
+
+
+/* Imagem do Pokémon */
+.pokemon-img {
+    width: 130px; /* Reduzi o tamanho da imagem */
+    height: 130px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Nome do Pokémon */
+.pokemon-name {
+    font-size: 16px; /* Ajustei o tamanho da fonte */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    
+}
+
+/* Linha que separa o nome e os dados */
+.linha {
+    width: 100%;
+    height: 5px;
+    background-color: green;
+}
+
+
+/* Estilo dos dados do Pokémon */
+.card-dados{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Texto "Pokemon" */
+.pokemon-text {
+    font-weight: bold;
+    color: #f44336; /* Cor vermelha para representar o tipo Fire */
+    margin-top: 10px;
+}
