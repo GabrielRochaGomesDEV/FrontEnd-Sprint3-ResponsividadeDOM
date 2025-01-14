@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscar Pokémon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+  
+  <div class="background">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/280px-International_Pok%C3%A9mon_logo.svg.png" alt="Pokémon" id="pokemonImage">
+  </div>
+  
+  <div class="search">
+    <div class="container">
+      <input type="text" id="pokemonName" placeholder="Digite o nome do Pokémon">
+      <button onclick="fetchPokemon()">Buscar</button>
+    </div>
+  </div>
+  
+ 
+  <div id="pokemonInfo" class="result"></div>
+
+  <script src="script.js"></script>
+
+    </main>
+    
+</body>
+</html>
